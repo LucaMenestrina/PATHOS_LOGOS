@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LucaMenestrina/PATHOS_LOGOS/main/KGML.svg", alt="DEGA", width=60%>
+  <img src="https://raw.githubusercontent.com/LucaMenestrina/PATHOS_LOGOS/main/KGML.svg", alt="KGML", width=60%>
 </div>
 
 This study transcends conventional network models by embracing the vast semantic diversity of relationships among biomedical entities. Gathering vast datasets from diverse sources, spanning numerous entity types, we have integrated them to create the comprehensive knowledge graph named PATHOS (PATHologies of HOmo Sapiens). PATHOS serves as the foundation for our knowledge-driven predictions. Subsequently, we implemented LOGOS (Learning Optimized Graph-based representations of Object Semantics), a knowledge graph embedding model capable of generating predictions relevant to drug research.  
