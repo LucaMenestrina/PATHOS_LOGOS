@@ -1,0 +1,34 @@
+2023-10-07 12:33:29,270 [INFO] Loading dataset
+2023-10-07 12:33:31,108 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/training_triples
+2023-10-07 12:33:32,446 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/testing_triples
+2023-10-07 12:33:32,827 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/validation_triples
+2023-10-07 12:33:33,197 [INFO] Loading pipeline config
+2023-10-07 12:33:33,199 [INFO] Launching pipeline
+2023-10-07 12:33:34,398 [INFO] Using device: None
+2023-10-07 12:33:34,454 [INFO] Selecting anchors according to MixtureAnchorSelection(num_anchors=10000, selections=[DegreeAnchorSelection(num_anchors=8000), RandomAnchorSelection(num_anchors=2000)])
+2023-10-07 12:33:34,976 [INFO] Searching closest anchors with ScipySparseAnchorSearcher(max_iter=100)
+2023-10-08 11:28:00,976 [INFO] Loading dataset
+2023-10-08 11:28:02,844 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/training_triples
+2023-10-08 11:28:04,168 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/testing_triples
+2023-10-08 11:28:04,541 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/validation_triples
+2023-10-08 11:28:04,912 [INFO] Loading pipeline config
+2023-10-08 11:28:04,915 [INFO] Launching pipeline
+2023-10-08 11:28:06,133 [INFO] Using device: None
+2023-10-08 11:28:06,208 [INFO] Selecting anchors according to MixtureAnchorSelection(num_anchors=10000, selections=[DegreeAnchorSelection(num_anchors=8000), RandomAnchorSelection(num_anchors=2000)])
+2023-10-08 11:28:06,725 [INFO] Searching closest anchors with ScipySparseAnchorSearcher(max_iter=100)
+2023-10-08 11:37:19,238 [WARNING] Search converged after iteration 16 without all nodes being reachable.
+2023-10-08 11:37:24,609 [WARNING] 56/243103 (0.02%) do not have any anchor.
+2023-10-08 11:37:53,885 [WARNING] No symbolic computation of output shape.
+2023-10-08 11:37:53,906 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-08 11:37:55,432 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-08 11:37:55,435 [INFO] Creating inverse triples.
+2023-10-08 11:38:39,852 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-08 11:38:39,855 [INFO] Creating inverse triples.
+2023-10-09 09:08:43,937 [INFO] When evaluating the test dataset, validation triples are added to the set of known positive triples which are filtered out when performing filtered evaluation following the approach described by (Bordes et al., 2013).
+2023-10-09 09:33:29,971 [INFO] Evaluation took 1484.52s seconds
+2023-10-09 09:33:29,979 [INFO] Pipeline completed
+2023-10-09 09:33:29,979 [INFO] Saving pipeline
+2023-10-09 09:33:47,835 [INFO] Stored TriplesFactory(num_entities=243103, num_relations=316, create_inverse_triples=True, num_triples=3684196) to file:///work/sbosio/LOGOS/cluster/comparison/DistMult/3/training_triples
+2023-10-09 09:33:49,108 [INFO] Saved to directory: file:///work/sbosio/LOGOS/cluster/comparison/DistMult/3
+2023-10-09 09:33:49,109 [INFO] Saving embeddings
+2023-10-09 09:33:49,272 [INFO] End

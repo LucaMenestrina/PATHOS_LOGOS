@@ -1,0 +1,42 @@
+2023-10-06 12:31:11,509 [INFO] Loading dataset
+2023-10-06 12:31:13,315 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/training_triples
+2023-10-06 12:31:14,606 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/testing_triples
+2023-10-06 12:31:14,970 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/validation_triples
+2023-10-06 12:31:15,341 [INFO] Loading pipeline config
+2023-10-06 12:31:15,342 [INFO] Launching pipeline
+2023-10-06 12:31:16,532 [INFO] Using device: None
+2023-10-06 12:31:16,590 [INFO] Selecting anchors according to MixtureAnchorSelection(num_anchors=10000, selections=[DegreeAnchorSelection(num_anchors=8000), RandomAnchorSelection(num_anchors=2000)])
+2023-10-06 12:31:17,105 [INFO] Searching closest anchors with ScipySparseAnchorSearcher(max_iter=100)
+2023-10-06 12:40:18,168 [WARNING] Search converged after iteration 16 without all nodes being reachable.
+2023-10-06 12:40:23,314 [WARNING] 55/243103 (0.02%) do not have any anchor.
+2023-10-06 12:40:51,564 [WARNING] No symbolic computation of output shape.
+2023-10-06 12:40:51,586 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-06 12:40:53,111 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-06 12:40:53,116 [INFO] Creating inverse triples.
+2023-10-06 12:41:36,848 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-06 12:41:36,852 [INFO] Creating inverse triples.
+2023-10-07 12:47:48,930 [INFO] Loading dataset
+2023-10-07 12:47:50,858 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/training_triples
+2023-10-07 12:47:52,253 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/testing_triples
+2023-10-07 12:47:52,653 [INFO] Loading from file:///work/sbosio/LOGOS/cluster/HPO/triples_factory/validation_triples
+2023-10-07 12:47:53,038 [INFO] Loading pipeline config
+2023-10-07 12:47:53,040 [INFO] Launching pipeline
+2023-10-07 12:47:54,434 [INFO] Using device: None
+2023-10-07 12:47:54,491 [INFO] Selecting anchors according to MixtureAnchorSelection(num_anchors=10000, selections=[DegreeAnchorSelection(num_anchors=8000), RandomAnchorSelection(num_anchors=2000)])
+2023-10-07 12:47:55,056 [INFO] Searching closest anchors with ScipySparseAnchorSearcher(max_iter=100)
+2023-10-07 12:56:53,442 [WARNING] Search converged after iteration 15 without all nodes being reachable.
+2023-10-07 12:56:58,870 [WARNING] 55/243103 (0.02%) do not have any anchor.
+2023-10-07 12:57:29,438 [WARNING] No symbolic computation of output shape.
+2023-10-07 12:57:29,458 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-07 12:57:31,061 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-07 12:57:31,064 [INFO] Creating inverse triples.
+2023-10-07 12:58:17,951 [WARNING] The input tensor shape, (317, 128), does not comply with the canonical complex tensor shape, (..., 2), cf. https://pytorch.org/docs/stable/complex_numbers.html. We'll try to reshape to (317, -1, 2)
+2023-10-07 12:58:17,955 [INFO] Creating inverse triples.
+2023-10-08 11:14:40,374 [INFO] When evaluating the test dataset, validation triples are added to the set of known positive triples which are filtered out when performing filtered evaluation following the approach described by (Bordes et al., 2013).
+2023-10-08 11:39:32,359 [INFO] Evaluation took 1490.43s seconds
+2023-10-08 11:39:32,368 [INFO] Pipeline completed
+2023-10-08 11:39:32,368 [INFO] Saving pipeline
+2023-10-08 11:39:50,453 [INFO] Stored TriplesFactory(num_entities=243103, num_relations=316, create_inverse_triples=True, num_triples=3684196) to file:///work/sbosio/LOGOS/cluster/comparison/RotatE/1/training_triples
+2023-10-08 11:39:51,753 [INFO] Saved to directory: file:///work/sbosio/LOGOS/cluster/comparison/RotatE/1
+2023-10-08 11:39:51,754 [INFO] Saving embeddings
+2023-10-08 11:39:51,888 [INFO] End

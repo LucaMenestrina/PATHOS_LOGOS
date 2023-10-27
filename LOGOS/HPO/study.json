@@ -1,0 +1,12 @@
+{
+  "evaluator": "rankbased",
+  "filter_validation_when_testing": true,
+  "loss": "nssa",
+  "metric": "both.realistic.adjusted_inverse_harmonic_mean_rank",
+  "model": "nodepiece",
+  "negative_sampler": "bernoulli",
+  "optimizer": "adam",
+  "pykeen_git_hash": "UNHASHED",
+  "pykeen_version": "1.10.1",
+  "training_loop": "slcwa"
+}

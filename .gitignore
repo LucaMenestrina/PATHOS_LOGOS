@@ -1,0 +1,5 @@
+**/tmp
+*.npy
+
+PATHOS/data/sources/**
+**/.env
