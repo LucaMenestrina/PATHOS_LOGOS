@@ -13,8 +13,6 @@ import json
 import fastobo
 import inflection
 
-import ray
-
 import cProfile
 import pstats
 from functools import wraps
